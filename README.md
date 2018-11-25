@@ -1,2 +1,2 @@
 # Breast-Cancer-Detection
-Udacity Capstone Project
+Udacity Capstone Project and proposal 
