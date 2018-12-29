@@ -14,7 +14,22 @@ The problem statement involves using images that are obtained during pathology t
   The dataset that contains histopathology images for breast cancer is present on kaggle at : https://www.kaggle.com/paultimothymooney/breast-histopathology-images . The dataset contains 198,738 of negative IDC and 78,786 of positive IDC, therefore, it is a good dataset with enough data for our task. The original dataset consisted of 162 whole mount slide images of Breast Cancer (BCa) specimens scanned at 40x. However, the data that I have selected contains images that are cropped from the original dataset i.e it contains patches of regions where the IDC occurs, making it more specific to our problem. Each patch’s file name is of the format: u_xX_yY_classC.png — > example 10253_idx5_x1351_y1101_class0.png . Where u is the patient ID (10253_idx5), X is the x-coordinate of where this patch was cropped from, Y is the y-coordinate of where this patch was cropped from, and C indicates the class where 0 is non-IDC and 1 is IDC.
 
 ## Steps to follow:
-1. Download the data from the provided link.
-2. Place it in a folder named Project.
-3. Apart from regular package install Imblearn package
-4. Keep this notebook also in the same folder
+1. Data is present in Kaggle link- https://www.kaggle.com/paultimothymooney/breast-histopathology-images
+2. Create a notebook with this dataset.
+3. Download the notebook *breast_cancer* and upload it on that notebook.
+4. Run the notebook
+ 
+ ## Required Libraries
+ 1. Numpy (NumPy is the fundamental package for scientific computing with Python Link : http://www.numpy.org/)
+ 2. Pandas (In computer programming, pandas is a software library written for the Python programming language for data manipulation and analysis. Link :https://pandas.pydata.org/)
+ 3. Glob ( The glob module finds all the pathnames matching a specified pattern according to the rules used by the Unix shell, although results are returned in arbitrary order. Link : https://docs.python.org/2/library/glob.html)
+ 4. PIL ( Python Imaging Library is a free library for the Python programming language that adds support for opening, manipulating, and saving many different image file formats. Link : https://pillow.readthedocs.io/en/5.3.x/ )
+ 5. Tqdm ( Instantly make your loops show a smart progress meter.  Link : https://pypi.org/project/tqdm/)
+ 6. cv2 ( OpenCV link : https://opencv-python-tutroals.readthedocs.io/en/latest/index.html)
+ 7. Matplotlib (matplotlib is a plotting library for the Python programming language and its numerical mathematics extension NumPy Link :https://matplotlib.org/)
+ 8. csv ( To read and write CSV files)
+ 9. IPython ( To display dataframe in a well formated form)
+ 10. sklearn ( It is used to provide metrics and test train split algorithms)
+ 11. Keras (Keras is used to built models)
+ 12. imblearn (It is used for providing undersampling link: https://pypi.org/project/imblearn/)
+ 13. itertools (This module implements a number of iterator building blocks inspired by constructs from APL, Haskell, and SML. Each has been recast in a form suitable for Python Link: https://docs.python.org/2/library/itertools.html)
