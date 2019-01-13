@@ -33,3 +33,6 @@ The problem statement involves using images that are obtained during pathology t
  11. Keras (Keras is used to built models)
  12. imblearn (It is used for providing undersampling link: https://pypi.org/project/imblearn/)
  13. itertools (This module implements a number of iterator building blocks inspired by constructs from APL, Haskell, and SML. Each has been recast in a form suitable for Python Link: https://docs.python.org/2/library/itertools.html)
+ 
+ # License
+ The contents of this repository are covered under the MIT License.
